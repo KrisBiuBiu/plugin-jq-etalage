@@ -34,6 +34,31 @@
 <button onclick="etalage_next()">Next image</button>
 <button onclick="etalage_show(1)">Show image 1</button>
 <button onclick="etalage_show(4)">Show image 4</button>
+<div class="eta-w">
+    <ul id="etalage" class="etalage">
+        <!--<li>-->
+        <!--<img class="etalage_thumb_image" src="/images/cdt_01.jpg" />&lt;!&ndash;这里的src放的是略缩图 &ndash;&gt;-->
+        <!--<img class="etalage_source_image" src="/images/cdt_large_01.jpg" title="这里放本图片的描述" />                             &lt;!&ndash;第二行img的src是第一行图片的放大图，也就是放大镜显示出来的部分 &ndash;&gt;-->
+        <!--</li>-->
+        <li>
+            <img class="etalage_source_image" src="/images/t1.jpg"/>
+        </li>
+        <li>
+            <img class="etalage_source_image" src="/images/t2.jpg"/>
+        </li>
+        <li>
+            <img class="etalage_source_image" src="/images/t3.jpg"/>
+        </li>
+        <li>
+            <img class="etalage_source_image" src="/images/t4.jpg"/>
+        </li>
+        <li>
+            <img class="etalage_source_image" src="/images/t5.jpg"/>
+        </li>
+    </ul>
+    <span class="eta-arr-l eta-arr" onclick="etalage_previous()"><img src="/images/eta_arr_l.png" alt=""></span>
+    <span class="eta-arr-r eta-arr" onclick="etalage_next()"><img src="/images/eta_arr_r.png" alt=""></span>
+</div>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="jquery.etalage.min.js"></script>
 <script>

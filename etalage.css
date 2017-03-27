@@ -11,6 +11,32 @@
  */
 
 /* Etalage container (large thumb + small thumbs): */
+/*隐藏缩略图 带箭头
+.eta-w{
+	position: relative;
+	width: 500px;
+	height: 334px;
+.eta-arr{
+	position: absolute;
+	top: 137px;
+	width: 36px;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+}
+.eta-arr-l{
+	left: 0;
+}
+.eta-arr-r{
+	right: 0;
+}
+}
+
+  .etalage_small_thumbs{
+	  display: none;
+  }
+ */
 #etalage{
 	display: none;
 	margin-bottom: 50px;

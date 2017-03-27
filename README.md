@@ -1,11 +1,11 @@
-##jq etalage 图片轮播放大
-###使用
+## jq etalage 图片轮播放大
+### 使用
 ```
   <link rel="stylesheet" href="etalage.css">
   <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="jquery.etalage.min.js"></script>
   ```
-###html
+### html
 ```
   <ul id="etalage" class="etalage">
       <li>
@@ -31,7 +31,7 @@
   </ul>
   ```
   
-###js
+### js
 ```
   <script>
       $('#etalage').etalage({
@@ -52,7 +52,7 @@
       });
   </script>
   ```
-###跳页
+### 跳页
   方法名与id对应
   
   ```
